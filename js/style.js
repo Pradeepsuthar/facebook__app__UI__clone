@@ -1,5 +1,13 @@
 let facebookData = [
     postData = {
+        username: "Millind Gaba",
+        location: "MillindGabaofficial",
+        profile_img: "https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-9/79412623_3548912288453992_2544612142552711168_o.jpg?_nc_cat=1&_nc_sid=09cbfe&_nc_ohc=oSenzAEM0JMAX_5mDA-&_nc_ht=scontent.fjai1-1.fna&oh=56b2bf573c63ab079a8683c8bd1b8e6c&oe=5F6A57BE",
+        postImgUrl: "https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-0/p526x296/118324172_4525706344107910_5254184321635041158_o.jpg?_nc_cat=106&_nc_sid=9267fe&_nc_ohc=YPioZohW-NQAX8eBK32&_nc_ht=scontent.fjai1-1.fna&tp=6&oh=dc85bee1c453367b4b40b13b03be2446&oe=5F6DC4E3",
+        noOfLikes: '10M',
+        noOfComments: '83K',
+    },
+    postData = {
         username: "Pradeep Suthar",
         location: "Pindwara - Sirohi",
         profile_img: "https://scontent.fjai1-2.fna.fbcdn.net/v/t1.0-9/51086960_2273536919587674_2352833958636421120_n.jpg?_nc_cat=108&_nc_sid=09cbfe&_nc_ohc=V6-gPtBms7gAX-EJa-l&_nc_ht=scontent.fjai1-2.fna&oh=d0f551fc46c9d81d1e056ceee0052885&oe=5F6A8145",
@@ -30,14 +38,6 @@ let facebookData = [
         postImgUrl: "https://scontent.fjai1-2.fna.fbcdn.net/v/t1.0-9/s960x960/94728986_3999184733426743_8571736025292865536_o.jpg?_nc_cat=103&_nc_sid=e3f864&_nc_ohc=h_iVhFUnofsAX8hKjU1&_nc_oc=AQnswWF3ay_5KPgvgKCFlpeV5eVFfy3wyABJdc22DPjfOtPMM4FiRyBCJooCzbmu8AExXdyexMyXHMGfKJN53DCH&_nc_ht=scontent.fjai1-2.fna&tp=7&oh=0f6f26a6585f8a604115849ac32036b3&oe=5F6AF4C8",
         noOfLikes: '12M',
         noOfComments: '63K',
-    },
-    postData = {
-        username: "Millind Gaba",
-        location: "MillindGabaofficial",
-        profile_img: "https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-9/79412623_3548912288453992_2544612142552711168_o.jpg?_nc_cat=1&_nc_sid=09cbfe&_nc_ohc=oSenzAEM0JMAX_5mDA-&_nc_ht=scontent.fjai1-1.fna&oh=56b2bf573c63ab079a8683c8bd1b8e6c&oe=5F6A57BE",
-        postImgUrl: "https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-0/p526x296/118324172_4525706344107910_5254184321635041158_o.jpg?_nc_cat=106&_nc_sid=9267fe&_nc_ohc=YPioZohW-NQAX8eBK32&_nc_ht=scontent.fjai1-1.fna&tp=6&oh=dc85bee1c453367b4b40b13b03be2446&oe=5F6DC4E3",
-        noOfLikes: '10M',
-        noOfComments: '83K',
     },
 ]
 
