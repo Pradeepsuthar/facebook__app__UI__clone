@@ -8,7 +8,7 @@
     --app-header-bg: #FFF;
     --app-header-contrast: #222;
     --tool-bar-bg: #FFF;
-    --tool-bar-contrast: #323233;
+    --tool-bar-contrast: #686868;
 }
 * {
     box-sizing: border-box;
@@ -58,18 +58,19 @@ body {
 	display: flex;
 	overflow-x: scroll;
 	overflow-y: hidden;
-	padding: 20px;
+    padding: 20px;
 }
 .row_posters::-webkit-scrollbar{
+    -webkit-overflow-scrolling: touch;
 	display: none;
 }
 .row_posters img{
-	width: 100%;
-	object-fit: contain;
-	max-height: 200px;
-	margin-right: 10px;
+	width: 120px;
+	object-fit: cover;
+	min-height: 200px;
+	margin-right: 5px;
     transition: transform 500ms;
-    border-radius: 20px;
+    border-radius: 15px;
     border: 1px solid #dee2e6;
 }
 .row_posters img:hover{
