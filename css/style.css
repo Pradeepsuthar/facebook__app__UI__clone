@@ -1,0 +1,117 @@
+/* Global Styles */
+:root {
+    --primary: #1da1f2;
+    --dark-color: #141414;
+    --light-color: #f4f4f4;
+    --body-background: #F0F2F5;
+    --body-contrast: #222;
+    --app-header-bg: #FFF;
+    --app-header-contrast: #222;
+    --tool-bar-bg: #FFF;
+    --tool-bar-contrast: #323233;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: var(--body-background);
+    color: var(--body-contrast);
+}
+
+.app__header{
+    background-color: var(--app-header-bg);
+    color: var(--app-header-contrast);
+}
+.app__header>.app__logo{
+    width: 120px;
+}
+.app__header>.left__icons>span{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.top__tool__bar{
+    background-color: var(--tool-bar-bg);
+    color: var(--tool-bar-contrast);
+}
+.top__tool__bar>span{
+    font-size: 35px;
+    font-weight: 100;
+}
+.top__tool__bar>.active{
+    color: var(--primary);
+    border-bottom: 1px solid var(--primary);
+}
+
+/* App Body */
+.app__body{
+    min-height: 100vh;
+    background-color: transparent;
+}
+
+/* posters */
+.row_posters{
+	display: flex;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	padding: 20px;
+}
+.row_posters::-webkit-scrollbar{
+	display: none;
+}
+.row_posters img{
+	width: 100%;
+	object-fit: contain;
+	max-height: 200px;
+	margin-right: 10px;
+    transition: transform 500ms;
+    border-radius: 20px;
+    border: 1px solid #dee2e6;
+}
+.row_posters img:hover{
+	cursor: pointer;
+	transform: scale(1.08);
+}
+
+/* Post */
+.post__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.post__header>.user{
+    display: flex;
+}
+.post__header>.user>.text>b{
+    font-size: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #000 !important;
+}
+.post__header>.user>.text>small>a>span{
+    font-size: 17px;
+    position: relative;
+    top: 5px;
+}
+.post__header>.user>.avatar>img{
+    border: 1.5px solid var(--primary);
+    padding: 3px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.post__content>.status{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.post__content>.action__btns{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
