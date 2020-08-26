@@ -21,123 +21,115 @@ body {
     background: var(--body-background);
     color: var(--body-contrast);
 }
-
-.app__header{
+.app__header {
     background-color: var(--app-header-bg);
     color: var(--app-header-contrast);
 }
-.app__header>.app__logo{
+.app__header > .app__logo {
     width: 120px;
 }
-.app__header>.left__icons>span{
+.app__header > .left__icons > span {
     font-size: 30px;
     margin-left: 20px;
 }
-
-.top__tool__bar{
+.top__tool__bar {
     background-color: var(--tool-bar-bg);
     color: var(--tool-bar-contrast);
 }
-.top__tool__bar>a{
+.top__tool__bar > a {
     font-size: 28px;
     font-weight: lighter;
     color: var(--tool-bar-contrast);
 }
-.top__tool__bar>a>.active{
+.top__tool__bar > a > .active {
     color: var(--primary);
     border-bottom: 2px solid var(--primary);
 }
-
 /* App Body */
-.app__body{
+.app__body {
     min-height: 100vh;
     background-color: transparent;
 }
-
 /* posters */
-.row_posters{
-	display: flex;
-	overflow-x: scroll;
-	overflow-y: hidden;
+.row_posters {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
     padding: 20px;
 }
-.row_posters::-webkit-scrollbar{
+.row_posters::-webkit-scrollbar {
     -webkit-overflow-scrolling: touch;
-	display: none;
+    display: none;
 }
-.row_posters img{
-	width: 120px;
-	object-fit: cover;
-	min-height: 200px;
-	margin-right: 5px;
+.row_posters img {
+    width: 120px;
+    object-fit: cover;
+    min-height: 200px;
+    margin-right: 5px;
     transition: transform 500ms;
     border-radius: 15px;
     border: 1px solid #dee2e6;
 }
-.row_posters img:hover{
-	cursor: pointer;
-	transform: scale(1.08);
+.row_posters img:hover {
+    cursor: pointer;
+    transform: scale(1.08);
 }
-
 /* Post */
-.post__header{
+.post__header {
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
 }
-.post__header>.user{
+.post__header > .user {
     display: flex;
 }
-.post__header>.user>.text>b{
+.post__header > .user > .text > b {
     font-size: 15px;
     margin-bottom: 0;
     padding-bottom: 0;
     color: #000 !important;
 }
-.post__header>.user>.text>small>a>span{
+.post__header > .user > .text > small > a > span {
     font-size: 17px;
     position: relative;
     top: 5px;
 }
-.post__header>.user>.avatar>img{
+.post__header > .user > .avatar > img {
     border: 1.5px solid var(--primary);
     padding: 2px;
     width: 40px;
     border-radius: 50%;
     margin-right: 10px;
 }
-.post__content>.status{
+.post__content > .status {
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
 }
-
-.post__content>.action__btns{
+.post__content > .action__btns {
     display: flex;
     justify-content: space-around;
     padding: 10px 20px;
 }
-
-
 /* Facebook Reels videos */
-.reels__videos{
-	overflow-x: hidden;
-	overflow-y: scroll;
+.reels__videos {
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
-.reels__videos::-webkit-scrollbar{
+.reels__videos::-webkit-scrollbar {
     -webkit-overflow-scrolling: touch;
-	display: none;
+    display: none;
 }
-.reels__video__container{
+.reels__video__container {
     background-color: #000;
     height: 100vh;
 }
-.reels__video__container>video{
+.reels__video__container > video {
     object-fit: contain;
     width: 100%;
     height: 100%;
 }
-.reels__controls{
+.reels__controls {
     display: flex;
     justify-content: space-between;
     z-index: 999;
@@ -145,11 +137,10 @@ body {
     align-items: center;
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1));
 }
-
-.reels__controls>a>.go__back{
+.reels__controls > a > .go__back {
     color: #fff;
     font-size: 30px;
 }
-.reels__controls>a>.more__option{
+.reels__controls > a > .more__option {
     color: #fff;
 }
