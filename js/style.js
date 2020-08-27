@@ -1,5 +1,13 @@
 let facebookData = [
     postData = {
+        username: "BEARDO for Men",
+        location: "Seponsored",
+        profile_img: "https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-0/cp0/e15/q65/c11.0.561.561a/s168x128/12108714_1696885363901360_6655750517377970380_n.jpg?_nc_cat=1&_nc_sid=85a577&efg=eyJpIjoidCJ9&_nc_ohc=DoaWvCSHcuYAX8mk47W&_nc_ht=scontent.fjai1-1.fna&oh=da84e52e5fc761a0ab9d11c748e436a1&oe=5F6D1EBF",
+        postImgUrl: "https://beardoc.s3.ap-south-1.amazonaws.com/uploads/x300-x300-a-banner-4117-6266.jpg",
+        noOfLikes: '1.1K',
+        noOfComments: '3',
+    },
+    postData = {
         username: "Millind Gaba",
         location: "MillindGabaofficial",
         profile_img: "https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-9/79412623_3548912288453992_2544612142552711168_o.jpg?_nc_cat=1&_nc_sid=09cbfe&_nc_ohc=oSenzAEM0JMAX_5mDA-&_nc_ht=scontent.fjai1-1.fna&oh=56b2bf573c63ab079a8683c8bd1b8e6c&oe=5F6A57BE",
@@ -68,7 +76,7 @@ facebookData.forEach(function (postData, i) {
             </div>
             <div class="post__content">
                 <div class="status">
-                    <span>likes ${postData['noOfLikes']}</span>
+                    <span><img src="images/facebook__like.jpg" class="fb__emojis" alt=""><img src="images/smiling-face-with-heart-shaped-eyes_1f60d.png" class="fb__emojis" alt=""><img src="images/rolling-on-the-floor-laughing_1f923.png" class="fb__emojis" alt=""> ${postData['noOfLikes']}</span>
                     <span>${postData['noOfComments']} comments</span>
                 </div>
                 <div class="action__btns border-top">

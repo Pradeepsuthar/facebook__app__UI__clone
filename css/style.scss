@@ -1,9 +1,9 @@
 /* Global Styles */
 :root {
-    --primary: #1da1f2;
+    --primary: #1877F2;
     --dark-color: #141414;
     --light-color: #f4f4f4;
-    --body-background: #F0F2F5;
+    --body-background: #DADDE1;
     --body-contrast: #222;
     --app-header-bg: #FFF;
     --app-header-contrast: #222;
@@ -26,11 +26,15 @@ body {
     color: var(--app-header-contrast);
 }
 .app__header > .app__logo {
-    width: 120px;
+    width: 150px;
+    height: 40px;
+    padding: 0;
 }
-.app__header > .left__icons > span {
-    font-size: 30px;
-    margin-left: 20px;
+.app__header > .left__icons > .material-icons {
+    position: absolute;
+    top: 17px;
+    right: 50px;
+    font-size: 25px;
 }
 .top__tool__bar {
     background-color: var(--tool-bar-bg);
@@ -55,25 +59,48 @@ body {
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
-    padding: 20px;
+    padding: 10px;
 }
+/* width */
 .row_posters::-webkit-scrollbar {
-    -webkit-overflow-scrolling: touch;
-    display: none;
+  height: 10px;
+}
+
+/* Track */
+.row_posters::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.row_posters::-webkit-scrollbar-thumb {
+  background: #A9A9A9; 
+}
+/* Handle on hover */
+.row_posters::-webkit-scrollbar-thumb:hover {
+  background: #888; 
 }
 .row_posters img {
-    width: 120px;
+    width: 90px;
     object-fit: cover;
-    min-height: 200px;
-    margin-right: 5px;
+    min-height: 160px;
+    margin-right: 6px;
+    margin-left: 0;
+    padding-left: 0;
     transition: transform 500ms;
-    border-radius: 15px;
+    border-radius: 12px;
     border: 1px solid #dee2e6;
 }
-.row_posters img:hover {
-    cursor: pointer;
-    transform: scale(1.08);
+// .row_posters img:hover {
+//     cursor: pointer;
+//     transform: scale(1.08);
+// }
+
+@media(max-width:780px){
+    .row_posters::-webkit-scrollbar {
+        display: none;
+    }
 }
+
 /* Post */
 .post__header {
     display: flex;
@@ -101,6 +128,10 @@ body {
     border-radius: 50%;
     margin-right: 10px;
 }
+.post__content{
+    padding: 0;
+    margin: 0;
+}
 .post__content > .status {
     display: flex;
     justify-content: space-between;
@@ -110,6 +141,10 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 10px 20px;
+}
+.fb__emojis{
+    width: 18px;
+    border-radius: 50%;
 }
 /* Facebook Reels videos */
 .reels__videos {
