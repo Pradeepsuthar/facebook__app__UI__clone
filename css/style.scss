@@ -6,9 +6,9 @@
     --body-background: #DADDE1;
     --body-contrast: #222;
     --app-header-bg: #FFF;
-    --app-header-contrast: #222;
+    --app-header-contrast: #696E79;
     --tool-bar-bg: #FFF;
-    --tool-bar-contrast: #686868;
+    --tool-bar-contrast: #696E79;
 }
 * {
     box-sizing: border-box;
@@ -40,7 +40,7 @@ body {
     background-color: var(--tool-bar-bg);
     color: var(--tool-bar-contrast);
 }
-.top__tool__bar > a {
+.top__tool__bar > a > span{
     font-size: 28px;
     font-weight: lighter;
     color: var(--tool-bar-contrast);
