@@ -1,9 +1,19 @@
 let facebookData = [
     postData = {
+        username: "Geetanjali Institute of Technical Studies",
+        location: "College & University",
+        profile_img: "https://scontent.fjai1-2.fna.fbcdn.net/v/t1.0-9/78464258_1449334855190624_3691456732292186112_n.jpg?_nc_cat=100&_nc_sid=09cbfe&_nc_ohc=OKpCqA7d5W8AX9PXG9x&_nc_ht=scontent.fjai1-2.fna&oh=6c7658930454eab83dbd3b55232fdf2a&oe=5F6E7874",
+        postImgUrl: "https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-0/p526x296/118420435_1989629121161192_1683555692153901827_o.jpg?_nc_cat=111&_nc_sid=730e14&_nc_ohc=klpMXbo5KL4AX9qHltq&_nc_ht=scontent.fjai1-1.fna&tp=6&oh=5c8edbe4c7139f4401def841d48901a4&oe=5F6D44DE",
+        postDesc:"Think #Engineering Think #GITS #admissionopen2020  #gitsudr #engineeringcollege #btech #mtech #MBA #MCA #admissionopen #Udaipur #gitsplacements #Placement2020 #bestcollegeinudaipur #bestcollegeinrajasthan",
+        noOfLikes: '29',
+        noOfComments: '15',
+    },
+    postData = {
         username: "BEARDO for Men",
         location: "Seponsored",
         profile_img: "https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-0/cp0/e15/q65/c11.0.561.561a/s168x128/12108714_1696885363901360_6655750517377970380_n.jpg?_nc_cat=1&_nc_sid=85a577&efg=eyJpIjoidCJ9&_nc_ohc=DoaWvCSHcuYAX8mk47W&_nc_ht=scontent.fjai1-1.fna&oh=da84e52e5fc761a0ab9d11c748e436a1&oe=5F6D1EBF",
         postImgUrl: "https://beardoc.s3.ap-south-1.amazonaws.com/uploads/x300-x300-a-banner-4117-6266.jpg",
+        postDesc:"",
         noOfLikes: '1.1K',
         noOfComments: '3',
     },
@@ -12,6 +22,7 @@ let facebookData = [
         location: "MillindGabaofficial",
         profile_img: "https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-9/79412623_3548912288453992_2544612142552711168_o.jpg?_nc_cat=1&_nc_sid=09cbfe&_nc_ohc=oSenzAEM0JMAX_5mDA-&_nc_ht=scontent.fjai1-1.fna&oh=56b2bf573c63ab079a8683c8bd1b8e6c&oe=5F6A57BE",
         postImgUrl: "https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-0/p526x296/118324172_4525706344107910_5254184321635041158_o.jpg?_nc_cat=106&_nc_sid=9267fe&_nc_ohc=YPioZohW-NQAX8eBK32&_nc_ht=scontent.fjai1-1.fna&tp=6&oh=dc85bee1c453367b4b40b13b03be2446&oe=5F6DC4E3",
+        postDesc:"",
         noOfLikes: '10M',
         noOfComments: '83K',
     },
@@ -20,6 +31,7 @@ let facebookData = [
         location: "Pindwara - Sirohi",
         profile_img: "https://scontent.fjai1-2.fna.fbcdn.net/v/t1.0-9/51086960_2273536919587674_2352833958636421120_n.jpg?_nc_cat=108&_nc_sid=09cbfe&_nc_ohc=V6-gPtBms7gAX-EJa-l&_nc_ht=scontent.fjai1-2.fna&oh=d0f551fc46c9d81d1e056ceee0052885&oe=5F6A8145",
         postImgUrl: "https://scontent.fjai1-1.fna.fbcdn.net/v/t45.1600-4/cp0/q90/spS444/p526x296/117236707_23845466266710701_3202506317367540197_n.png.jpg?_nc_cat=1&_nc_sid=67cdda&_nc_ohc=odWScoCc04kAX-VlZs8&_nc_ht=scontent.fjai1-1.fna&oh=3a63d51705db5572917675e750736ead&oe=5F6B57A6",
+        postDesc:"",
         noOfLikes: '12',
         noOfComments: '5',
     },
@@ -28,6 +40,7 @@ let facebookData = [
         location: "Udaipur",
         profile_img: "https://scontent.fjai1-2.fna.fbcdn.net/v/t1.0-9/12985364_1166919093360157_2151197488517358827_n.jpg?_nc_cat=104&_nc_sid=09cbfe&_nc_ohc=aARy000nSpcAX_s4gn6&_nc_ht=scontent.fjai1-2.fna&oh=6f5057f4a9674c07967bc2790eeecbe7&oe=5F6D0920",
         postImgUrl: "https://scontent.fjai1-2.fna.fbcdn.net/v/t1.0-0/p526x296/118579535_3422325117819532_2566570063466223527_o.jpg?_nc_cat=110&_nc_sid=730e14&_nc_ohc=Zm4n_zCkJz8AX-f3sCw&_nc_ht=scontent.fjai1-2.fna&tp=6&oh=24feb56db7b65dcf70454e83ff871ec4&oe=5F69F516",
+        postDesc:"",
         noOfLikes: '20',
         noOfComments: '13',
     },
@@ -36,6 +49,7 @@ let facebookData = [
         location: "Seponsored",
         profile_img: "https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-9/23473074_10155031875776961_8482140412038626648_n.jpg?_nc_cat=1&_nc_sid=09cbfe&_nc_ohc=F-JjNiq33iMAX9DbK9o&_nc_ht=scontent.fjai1-1.fna&oh=3e611fc6447bcc389e35140ada37603f&oe=5F6CAB7A",
         postImgUrl: "https://scontent.fjai1-1.fna.fbcdn.net/v/l/t45.1600-4/cp0/q90/spS444/p526x296/88119220_6166315622559_7432426427393245184_n.png.jpg?_nc_cat=1&_nc_sid=67cdda&_nc_ohc=GCM1qDQUa8EAX-kSyI7&_nc_ht=scontent.fjai1-1.fna&oh=b73234a1efccc96f65e6d92ea8e51004&oe=5F6BB928",
+        postDesc:"What will it take to stop climate change?  <a href='https://www.gatesnotes.com/Climate-and-energy?preview&Climate-SU=1&&WT.mc_id=20200819000000_TGNICA_BG-PDM-PF-ClChInRoW-Clim2_pl-Facebook_Right_Column_ag_id6202926180359_ad_id6202926180959&WT.tsrc=BGPDM-PF&fbclid=IwAR2SXZiw_Tb-O0Pg_5kZ-PzdjDX1T0eXWP1lf-VUJiSSXvr9XsTfpWYJj08'>More</a>",
         noOfLikes: '283K',
         noOfComments: '25K',
     },
@@ -44,6 +58,7 @@ let facebookData = [
         location: "MillindGabaofficial",
         profile_img: "https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-9/79412623_3548912288453992_2544612142552711168_o.jpg?_nc_cat=1&_nc_sid=09cbfe&_nc_ohc=oSenzAEM0JMAX_5mDA-&_nc_ht=scontent.fjai1-1.fna&oh=56b2bf573c63ab079a8683c8bd1b8e6c&oe=5F6A57BE",
         postImgUrl: "https://scontent.fjai1-2.fna.fbcdn.net/v/t1.0-9/s960x960/94728986_3999184733426743_8571736025292865536_o.jpg?_nc_cat=103&_nc_sid=e3f864&_nc_ohc=h_iVhFUnofsAX8hKjU1&_nc_oc=AQnswWF3ay_5KPgvgKCFlpeV5eVFfy3wyABJdc22DPjfOtPMM4FiRyBCJooCzbmu8AExXdyexMyXHMGfKJN53DCH&_nc_ht=scontent.fjai1-2.fna&tp=7&oh=0f6f26a6585f8a604115849ac32036b3&oe=5F6AF4C8",
+        postDesc: "#admissionopen2020  #gitsudr #engineeringcollege #btech #mtech #MBA #MCA #admissionopen #Udaipur #gitsplacements #Placement2020 #bestcollegeinudaipur #bestcollegeinrajasthan",
         noOfLikes: '12M',
         noOfComments: '63K',
     },
@@ -72,6 +87,9 @@ facebookData.forEach(function (postData, i) {
                 </div>
             </div>
             <div class="post__img">
+                <div class="px-3">
+                    <p>${postData['postDesc']}</p>
+                </div>
                 <img src="${postData['postImgUrl']}" class="img-fluid" alt="">
             </div>
             <div class="post__content">
