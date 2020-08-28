@@ -102,6 +102,19 @@ body {
 }
 
 /* Post */
+.post__container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+.post__card{
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    background-color: #fff;
+}
 .post__header {
     display: flex;
     justify-content: space-between;
@@ -146,6 +159,13 @@ body {
     width: 18px;
     border-radius: 50%;
 }
+
+@media(max-width:768px){
+    .post__card{
+        border-radius: 0;
+    }
+}
+
 /* Facebook Reels videos */
 .reels__videos {
     overflow-x: hidden;

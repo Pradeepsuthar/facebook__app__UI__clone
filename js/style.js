@@ -67,7 +67,7 @@ let facebookData = [
 let html = "";
 facebookData.forEach(function (postData, i) {
     html += ` 
-    <div class="jumbotron jumbotron-fluid py-2 mt-0 mb-2 bg-white border">
+    <div class="jumbotron jumbotron-fluid px-0 py-2 mt-0 mb-2 post__card">
             <div class="post__header">
                 <div class="user">
                     <div class="avatar my-auto">
