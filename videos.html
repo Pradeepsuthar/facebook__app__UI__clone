@@ -1,0 +1,249 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .video__container {
+            background-color: #222;
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            overflow: scroll;
+            scroll-snap-type: y mandatory;
+        }
+
+        .video__container .video {
+            object-fit: fill;
+            position: relative;
+            scroll-snap-align: start;
+        }
+
+        .video__container .video video {
+            width: 100%;
+            height: 100vh;
+        }
+
+        .video__container .video .videoSidebar {
+            position: absolute;
+            top: 40%;
+            right: 10px;
+            color: #fff;
+        }
+
+        .video__container .video .videoSidebar .videoSidebar__buttons {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .video__container .video .videoSidebar .videoSidebar__buttons span {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .video__container .video .videoSidebar .videoSidebar__buttons p {
+            font-size: 15px;
+        }
+        .video__container .video .videoFooter{
+            position: absolute;
+            bottom: 0;
+            color: #fff;
+            padding: 20px;
+        }
+        .video__container .video .videoFooter p{
+            margin: 0 0 20px 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .video__container .video .videoFooter .music{
+            display: flex;
+        }
+       
+        .video__container .video .video__recordDisc img{
+            width: 40px;
+            position: absolute;
+            bottom: 5%;
+            right: 20px;
+            animation: spinRecordDisc infinite 5s linear;
+            filter: invert(1);
+        }
+        @keyframes spinRecordDisc {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="video__container">
+        <div class="video">
+            <video id="ReelVideo1" loop onclick="playPauseVideo('ReelVideo1')">
+                <source src="Reels Videos/haye garmi new latest tik tok video WhatsApp status.mp4" type="video/mp4">
+            </video>
+            <div class="videoSidebar">
+                <div class="videoSidebar__buttons">
+                    <span class="material-icons">favorite_border</span>
+                    <p>210</p>
+                </div>
+                <div class="videoSidebar__buttons">
+                    <span class="material-icons">message</span>
+                    <p>210</p>
+                </div>
+                <div class="videoSidebar__buttons">
+                    <span class="material-icons">share</span>
+                    <p>210</p>
+                </div>
+            </div>
+            <div class="videoFooter">
+                <p>@pradeepBhardwaj</p>
+                <p>This is some description</p>
+                <p class="music"><span class="material-icons">audiotrack</span><span><marquee>Music name this music is orignal</marquee></span></p>
+            </div>
+            <div class="video__recordDisc">
+                <img src="images/disc__icon.png" alt="">
+            </div>
+        </div>
+        <div class="video">
+            <video id="ReelVideo2" loop  onclick="playPauseVideo('ReelVideo2')">
+                <source src="Reels Videos/Laare tik tok video.mp4" type="video/mp4">
+            </video>
+            <div class="videoSidebar">
+                <div class="videoSidebar__buttons">
+                    <span class="material-icons">favorite_border</span>
+                    <p>210</p>
+                </div>
+                <div class="videoSidebar__buttons">
+                    <span class="material-icons">message</span>
+                    <p>210</p>
+                </div>
+                <div class="videoSidebar__buttons">
+                    <span class="material-icons">share</span>
+                    <p>210</p>
+                </div>
+            </div>
+            <div class="videoFooter">
+                <p>@pradeepBhardwaj</p>
+                <p>This is some description</p>
+                <p class="music"><span class="material-icons">audiotrack</span><span><marquee>Music name this music is orignal</marquee></span></p>
+            </div>
+            <div class="video__recordDisc">
+                <img src="images/disc__icon.png" alt="">
+            </div>
+        </div>
+        <div class="video">
+            <video id="ReelVideo3" loop onclick="playPauseVideo('ReelVideo3')">
+                <source src="Reels Videos/Likhe jo khat tujhe tik tok treanding video.mp4" type="video/mp4">
+            </video>
+            <div class="videoSidebar">
+                <div class="videoSidebar__buttons">
+                    <span class="material-icons">favorite_border</span>
+                    <p>210</p>
+                </div>
+                <div class="videoSidebar__buttons">
+                    <span class="material-icons">message</span>
+                    <p>210</p>
+                </div>
+                <div class="videoSidebar__buttons">
+                    <span class="material-icons">share</span>
+                    <p>210</p>
+                </div>
+            </div>
+            <div class="videoFooter">
+                <p>@pradeepBhardwaj</p>
+                <p>This is some description</p>
+                <p class="music"><span class="material-icons">audiotrack</span><span><marquee>Music name this music is orignal</marquee></span></p>
+            </div>
+            <div class="video__recordDisc">
+                <img src="images/disc__icon.png" alt="">
+            </div>
+        </div>
+        <div class="video">
+            <video id="ReelVideo4" loop onclick="playPauseVideo('ReelVideo4')">
+                <source src="Reels Videos/Tik tok 15 seconds vidoes.mp4" type="video/mp4">
+            </video>
+            <div class="videoSidebar">
+                <div class="videoSidebar__buttons">
+                    <span class="material-icons">favorite_border</span>
+                    <p>210</p>
+                </div>
+                <div class="videoSidebar__buttons">
+                    <span class="material-icons">message</span>
+                    <p>210</p>
+                </div>
+                <div class="videoSidebar__buttons">
+                    <span class="material-icons">share</span>
+                    <p>210</p>
+                </div>
+            </div>
+            <div class="videoFooter">
+                <p>@pradeepBhardwaj</p>
+                <p>This is some description</p>
+                <p class="music"><span class="material-icons">audiotrack</span><span><marquee>Music name this music is orignal</marquee></span></p>
+            </div>
+            <div class="video__recordDisc">
+                <img src="images/disc__icon.png" alt="">
+            </div>
+        </div>
+        <div class="video">
+            <video id="ReelVideo5" loop  onclick="playPauseVideo('ReelVideo5')">
+                <source src="Reels Videos/Tik tok dance video.mp4" type="video/mp4">
+            </video>
+            <div class="videoSidebar">
+                <div class="videoSidebar__buttons">
+                    <span class="material-icons">favorite_border</span>
+                    <p>210</p>
+                </div>
+                <div class="videoSidebar__buttons">
+                    <span class="material-icons">message</span>
+                    <p>210</p>
+                </div>
+                <div class="videoSidebar__buttons">
+                    <span class="material-icons">share</span>
+                    <p>210</p>
+                </div>
+            </div>
+            <div class="videoFooter">
+                <p>@pradeepBhardwaj</p>
+                <p>This is some description</p>
+                <p class="music"><span class="material-icons">audiotrack</span><span><marquee>Music name this music is orignal</marquee></span></p>
+            </div>
+            <div class="video__recordDisc">
+                <img src="images/disc__icon.png" alt="">
+            </div>
+        </div>
+
+
+      
+
+    </div>
+
+
+    <script>
+        // Play Pause Button
+        function playPauseVideo(video) {
+            var video = document.getElementById(video);
+            var btn_text = document.getElementById(btn_text);
+            if (video.paused) {
+                video.play();
+                btn_text.innerHTML = "pause";
+            } else {
+                video.pause();
+                btn_text.innerHTML = "play_arrow";
+            }
+        }
+    </script>
+</body>
+
+</html>
