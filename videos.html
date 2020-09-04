@@ -19,17 +19,22 @@
             position: relative;
             overflow: scroll;
             scroll-snap-type: y mandatory;
+            padding: 0;
+            margin: 0;
         }
 
         .video__container .video {
-            object-fit: fill;
             position: relative;
             scroll-snap-align: start;
         }
 
         .video__container .video video {
+            object-fit: fill;
+            object-position: center;
+            padding: 0;
+            margin: 0;
             width: 100%;
-            height: 100vh;
+            height: 100%;
         }
 
         .video__container .video .videoSidebar {
