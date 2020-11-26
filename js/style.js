@@ -2,7 +2,7 @@ let facebookData = [
     postData = {
         username: "Geetanjali Institute of Technical Studies",
         location: "College & University",
-        profile_img: "../images/gits_logo.png",
+        profile_img: "https://pradeepsuthar.github.io/facebook__app__UI__clone/images/gits_logo.png",
         postImgUrl: "https://scontent.fjai1-1.fna.fbcdn.net/v/t1.0-0/p526x296/118420435_1989629121161192_1683555692153901827_o.jpg?_nc_cat=111&_nc_sid=730e14&_nc_ohc=klpMXbo5KL4AX9qHltq&_nc_ht=scontent.fjai1-1.fna&tp=6&oh=5c8edbe4c7139f4401def841d48901a4&oe=5F6D44DE",
         postDesc:"Think #Engineering Think #GITS #admissionopen2020  #gitsudr #engineeringcollege #btech #mtech #MBA #MCA #admissionopen #Udaipur #gitsplacements #Placement2020 #bestcollegeinudaipur #bestcollegeinrajasthan",
         noOfLikes: '29',
@@ -11,7 +11,7 @@ let facebookData = [
     postData = {
         username: "BEARDO for Men",
         location: "Seponsored",
-        profile_img: "../images/beardo_logo.cms",
+        profile_img: "https://pradeepsuthar.github.io/facebook__app__UI__clone/images/beardo_logo.cms",
         postImgUrl: "https://beardoc.s3.ap-south-1.amazonaws.com/uploads/x300-x300-a-banner-4117-6266.jpg",
         postDesc:"",
         noOfLikes: '1.1K',
@@ -20,7 +20,7 @@ let facebookData = [
     postData = {
         username: "Millind Gaba",
         location: "MillindGabaofficial",
-        profile_img: "../images/Millind-Gaba-smiling.jpg",
+        profile_img: "https://pradeepsuthar.github.io/facebook__app__UI__clone/images/Millind-Gaba-smiling.jpg",
         postImgUrl: "https://m.media-amazon.com/images/I/71hxLIH3tpL._SS500_.jpg",
         postDesc:"",
         noOfLikes: '10M',
@@ -29,7 +29,7 @@ let facebookData = [
     postData = {
         username: "Pradeep Suthar",
         location: "Pindwara - Sirohi",
-        profile_img: "../images/profile_user.png",
+        profile_img: "https://pradeepsuthar.github.io/facebook__app__UI__clone/images/profile_user.png",
         postImgUrl: "https://www.google.com/logos/doodles/2020/stay-and-play-at-home-with-popular-past-google-doodles-cricket-2017-6753651837108767-2xa.gif",
         postDesc:"",
         noOfLikes: '12',
@@ -56,7 +56,7 @@ let facebookData = [
     postData = {
         username: "Millind Gaba",
         location: "MillindGabaofficial",
-        profile_img: "../images/Millind-Gaba-smiling.jpg",
+        profile_img: "https://pradeepsuthar.github.io/facebook__app__UI__clone/images/Millind-Gaba-smiling.jpg",
         postImgUrl: "https://i2.wp.com/www.lyricsstory.net/wp-content/uploads/2020/10/Kya-Karu-Lyrics-Millind-Gaba.jpg?fit=742%2C677&ssl=1",
         postDesc: "#admissionopen2020  #gitsudr #engineeringcollege #btech #mtech #MBA #MCA #admissionopen #Udaipur #gitsplacements #Placement2020 #bestcollegeinudaipur #bestcollegeinrajasthan",
         noOfLikes: '12M',
