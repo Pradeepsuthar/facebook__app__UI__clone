@@ -1,0 +1,16 @@
+{
+  "short_name": "FacbookCloneApp",
+  "name": "Facbook Clone App",
+  "description": "JavaScript Facbook Clone App",
+  "icons": [
+    {
+      "src": "/images/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "theme_color": "#3367D6"
+}
