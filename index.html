@@ -24,6 +24,7 @@
 
     <!-- <link rel="manifest" href='data:application/manifest+json,{ "name": "Facebook", "short_name": "facebook", "description": "This is a facebook clone application","background_color": "#3367D6", "display": "standalone", "theme_color": "#3367D6",}' /> -->
 </head>
+
 <body>
     <!-- App Header -->
     <div class="d-flex justify-content-between app__header pl-0 pr-2 py-2">
@@ -39,7 +40,8 @@
     <div class="d-flex justify-content-between top__tool__bar px-3 py-2 border-bottom sticky-top">
         <a href="#" class="my-auto"><span class="material-icons active">home</span></a>
         <a href="#" class="my-auto"><span class="material-icons">groups</span></a>
-        <a href="videos.html" class="my-auto"><span class="material-icons"><img src="images/video.png" alt=""></span></a>
+        <a href="videos.html" class="my-auto"><span class="material-icons"><img src="images/video.png"
+                    alt=""></span></a>
         <a href="#" class="my-auto"><span class="material-icons"><img src="images/marketplace.png" alt=""></span></a>
         <a href="#" class="my-auto"><span class="material-icons"><img src="images/notification.png" alt=""></span></a>
         <a href="#" class="my-auto"><span class="material-icons"><img src="images/bar.png" alt=""></span></a>
@@ -128,8 +130,56 @@
         </div> -->
 
         <div id="facebookPostList"></div>
-       
+
     </div>
+
+    <div class="card" id="app__installation" style="position: fixed; bottom: 0; width: 100%; overflow: hidden;
+    margin: auto;">
+        <div class="card-body">
+            <h5 class="card-title">Install App</h5>
+            <div class="text-right">
+                <button type="button" class="btn btn-light mr-2 border text-uppercase" id="install_cancel">Cancel</button>
+                <button type="button" class="btn btn-primary border text-uppercase" id="install_app_btn">Install
+                    Now</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let deferredPrompt;
+        var app__installation__promt = document.getElementById('app__installation');
+        app__installation__promt.style.display = 'none';
+        var install__app = document.getElementById('install_app_btn');
+        var cancel__install = document.getElementById('install_cancel');
+
+        cancel__install.addEventListener('click', (e) =>{
+            app__installation__promt.style.display = 'none';
+        });
+
+        window.addEventListener('beforeinstallprompt', (e) => {
+            // Prevent the mini-infobar from appearing on mobile
+            e.preventDefault();
+            // Stash the event so it can be triggered later.
+            deferredPrompt = e;
+            // Update UI notify the user they can install the PWA
+            app__installation__promt.style.display = 'block';
+
+            install__app.addEventListener('click', (e) => {
+                // Hide the app provided install promotion
+                app__installation__promt.style.display = 'none';
+                // Show the install prompt
+                deferredPrompt.prompt();
+                // Wait for the user to respond to the prompt
+                deferredPrompt.userChoice.then((choiceResult) => {
+                    if (choiceResult.outcome === 'accepted') {
+                        app__installation__promt.style.display = 'none';
+                    } else {
+                        console.log('User dismissed the install prompt');
+                    }
+                });
+            });
+        });
+    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
